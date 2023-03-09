@@ -4,8 +4,8 @@ const prefix: string = 'Invariant failed';
 /**
  * Throw an error if the condition fails. Strip out error messages for production.
  *
- * @param condition A boolean condition - if falsey will thrown an error.
- * @param message The message provided to accompany the invariant. No inline default argument for message as the result is smaller.
+ * @param condition If falsey will throw an Error.
+ * @param message The message provided to accompany the invariant. See example for usage.
  *
  * @example
  * ```tsx
